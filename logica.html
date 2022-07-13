@@ -1,0 +1,158 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleslogica.css">
+    <title>Ejercicios Lógica</title>
+    <script src="https://kit.fontawesome.com/e5beeead14.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css">
+</head>
+<body class="y">
+<header class="header">
+    <h1>Ejericios Lógica</h1>
+</header>
+    <button class="panel-btn hamburger hamburger--3DXY" type="button">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+      <button class="btn hidden">
+         <i class="fa-solid fa-arrow-up"></i>
+      </button>
+ <aside class="panel">
+    <nav class="menu">
+        <a href="#seccion1">Contar caracteres</a>
+        <a href="#seccion2">Cortar oracion o palabra</a>
+        <a href="#seccion3">String to Array</a>
+        <a href="#seccion4">Repetir texto o palabra X veces</a>
+        <a href="#seccion5">Invertir Palabras</a>
+        <a href="#seccion6">Palindromo</a>
+        <a href="#seccion7">Borrar letras</a>
+        <a href="#seccion8">Numero aleatorio entre 501 y 600</a>
+        <a href="#seccion9">Celcius a fahrenheit o viceversa</a>
+        <a href="#seccion10">Par o Impar</a>
+        <a href="#seccion11">Vocales y Consonantes</a>
+        <a href="#seccion12">Numero al cuadrado</a>
+    </nav>
+ </aside>
+ <main>
+    <section id="seccion1" class="section">
+    <h2>Contar Caracteres</h2>
+ <div>
+ <p>Ingrese una palabra</p>
+ <form>
+ <input class="count" type="text">
+ <input type="submit" value="Enviar">
+</form>
+ <p class="contar"></p>
+ </div>
+</section>
+ <section id="seccion2" class="section">
+    <h2>Cortar oracion o palabra</h2>
+<form>
+   <p>Ingresa un texto o palabra</p>
+   <input class='textcut' type="text">
+   <p>Cuantos caracteres quieres dejar</p>
+   <input class='numbercut' type="number"><br>
+   <input class="submitcut" type="submit">
+   <div class="addpalabra"></div>
+</form> 
+</section>
+ <section id="seccion3" class="section">
+    <h2>String to Array</h2>
+<form>
+    <p>Ingrese una palabra</p>
+<input class="textats" type="text"><br>
+<input type="submit" value="Enviar">
+<div class="newarray"></div>
+</form>
+ </section>
+ <section id="seccion4" class="section">
+    <h2>Repetir texto o palabra X veces</h2>
+    <form>
+      <p>Ingrese texto o palabra</p>
+      <input class="textrepeat" type="text"><br>
+      <input class="textonveces" type="number"><br>
+      <input type="submit" value="Enviar"><br>
+      <div class="addcantidad"></div>
+    </form>
+ </section>
+ <section id="seccion5" class="section">
+    <h2>Invertir Palabras</h2>
+    <form>
+      <input class="textturn" type="text">
+      <input type="submit" value="Enviar">
+      <div class="turn"></div>
+    </form>
+ </section>
+ <section id="seccion6" class="section">
+   <h2>Es palindromo?</h2>
+   <form>
+      <input class="textpalindromo" type="text">
+      <input type="submit" value="Enviar">
+      <div class="addpalindromo"></div>
+   </form>
+ </section>
+ <section id="seccion7" class="section">
+    <h2>Borrar letras</h2>
+<form>
+   <input class="textdelete" type="text">
+   <input type="submit" value="Enviar">
+   <div class="msgdelete"></div>
+</form>
+ </section>
+ <section id="seccion8" class="section">
+<h2>Numero aleatorio entre 501 y 600</h2>
+   <form>
+   <input type="submit" value="Enviar">
+   <div class="numrandom"></div>
+</form>
+ </section>
+ <section id="seccion9" class="section">
+   <h2>Celcius a fahrenheit o viceversa</h2>
+<form>
+   <p>Unidad</p>
+   <select id="select">
+      <option value="C to F">C to F</option>
+      <option value="F to C">F to C</option>
+   </select>
+   <p>Grados</p>
+   <input id='inputdegree' type="text"><br>
+   <input type="submit">
+   <div class="newdegree"></div>
+</form>
+ </section>
+ <section id="seccion10" class="section">
+ <h2>Par o Impar</h2>  
+   <form>
+      <p>Ingrese un Numero</p>
+      <input class="txtnumb" type="text">
+      <input type="submit" value="Enviar">
+      <div class="parimpar"></div>
+   </form>
+ </section>
+<section id="seccion11" class="section">
+   <h2>Vocales y Consonantes</h2>  
+   <form>
+      <p>Ingrese una palabra</p>
+      <input class="txtvyc" type="text">
+      <input type="submit" value="Enviar">
+      <div class="vyc"></div>
+   </form>
+</section>
+<section id="seccion12" class="section">
+   <h2>Numero al cuadrado</h2>  
+   <form>
+      <p>Ingrese sus numeros</p>
+      <input class="alcuadra2" type="text">
+      <input type="submit" value="Enviar">
+      <div class="newcuadra2"></div>
+   </form>
+</section>
+</main>
+ <script src="dinamic.js" type="module"></script>
+</body>
+<footer>
+</footer>
+</html>
